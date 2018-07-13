@@ -2,7 +2,7 @@
   "profiles": {
     "pipelines_span": {
       "commandName": "Project",
-      "commandLineArgs": "dotnet-sdk-2.1.302-win-x64.exe"
+      "commandLineArgs": "dotnet-sdk-2.1.301-win-gs-x64.exe"
     }
   }
 }

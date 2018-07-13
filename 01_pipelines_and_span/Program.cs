@@ -16,9 +16,31 @@ namespace pipelines_span
                 return;
             }
 
-            var result = await PEFileMagic.IsPEAsync(args[0]);
+            DateTime start = DateTime.Now;
 
-            Console.WriteLine($"{args[0]} is PE: {result}");
+            for (var x = 0; x < 1000; x++) {
+                var result = await PEFileMagic.IsPEAsync(args[0]);
+            }
+            
+            start = DateTime.Now;
+
+            for (var x = 0; x < 1000; x++)
+            {
+                var result = PEFileMagic.IsPE(args[0]);
+            }
+
+            Console.WriteLine(DateTime.Now.Subtract(start).TotalMilliseconds);
+
+            start = DateTime.Now;
+
+            for (var x = 0; x < 1000; x++)
+            {
+                var result = await PEFileMagic.IsPEAsync(args[0]);
+            }
+
+            Console.WriteLine(DateTime.Now.Subtract(start).TotalMilliseconds);
+
+            Console.ReadKey();
         }
     }
 }
