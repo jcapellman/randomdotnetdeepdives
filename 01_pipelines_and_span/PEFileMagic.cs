@@ -3,8 +3,6 @@ using System.IO;
 using System.Linq;
 
 using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Attributes.Columns;
-using BenchmarkDotNet.Attributes.Jobs;
 
 namespace pipelines_span
 {
