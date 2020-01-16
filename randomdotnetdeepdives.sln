@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27906.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pipelines_span", "01_pipelines_and_span/pipelines_span.csproj", "{D5D12B14-D510-4C29-B98A-C88A524F0513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pipelines_span", "01_pipelines_and_span\pipelines_span.csproj", "{D5D12B14-D510-4C29-B98A-C88A524F0513}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tcpdump", "tcpdump\tcpdump.csproj", "{9A18058C-3799-4FD3-9FF5-523F474776B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scheduler", "scheduler\scheduler.csproj", "{A4E632B6-E7BB-478D-92E1-8F78C4D402D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D5D12B14-D510-4C29-B98A-C88A524F0513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5D12B14-D510-4C29-B98A-C88A524F0513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5D12B14-D510-4C29-B98A-C88A524F0513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A18058C-3799-4FD3-9FF5-523F474776B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A18058C-3799-4FD3-9FF5-523F474776B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A18058C-3799-4FD3-9FF5-523F474776B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A18058C-3799-4FD3-9FF5-523F474776B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E632B6-E7BB-478D-92E1-8F78C4D402D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E632B6-E7BB-478D-92E1-8F78C4D402D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E632B6-E7BB-478D-92E1-8F78C4D402D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E632B6-E7BB-478D-92E1-8F78C4D402D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
