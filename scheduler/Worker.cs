@@ -20,6 +20,7 @@ namespace scheduler
             return x % 2 == 0;
         }
 
+        
         public event EventHandler<Guid> NotBusy;
     }
 }
